@@ -4,7 +4,7 @@ var autoIncrement = require('mongoose-auto-increment');
 mongoose.Promise = global.Promise;
 
 //DB CONNECTION
-mongoose.createConnection("mongodb://localhost/react-router");
+mongoose.createConnection("mongodb://127.0.0.1:27017/react-router");
 var db = module.exports = mongoose.connection;
 
 
