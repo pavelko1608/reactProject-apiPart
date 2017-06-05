@@ -5,7 +5,7 @@ var bodyParser = require("body-parser");
 var mongo = require("mongodb");
 var mongoose = require("mongoose");
 
-mongoose.connect("mongodb://localhost/react-router");
+mongoose.connect("mongodb://localhost:27017/react-router");
 var db = mongoose.connection;
 
 var routes = require("./routes/routes");

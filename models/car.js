@@ -1,7 +1,7 @@
 var mongoose = require("mongoose");
 var autoIncrement = require('mongoose-auto-increment');
 var Schema = mongoose.Schema;
-var connection = mongoose.createConnection("mongodb://localhost/react-router");
+var connection = mongoose.createConnection("mongodb://localhost:27017/react-router");
 autoIncrement.initialize(connection);
 
 

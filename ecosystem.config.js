@@ -22,7 +22,7 @@ module.exports = {
   deploy : {
     production : {
       user : 'api',
-      host : '46.101.114.172',
+      host : '139.59.213.105',
       ref  : 'origin/master',
       repo : 'https://github.com/pavelko1608/reactProject-apiPart.git',
       path : '/home/api/apiPart',
